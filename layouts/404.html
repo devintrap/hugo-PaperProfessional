@@ -1,3 +1,17 @@
 {{- define "main" }}
-<div class="not-found">404</div>
+{{- if (site.Params.geekMode)}}
+<div class="not-found"></div>
+    {{ $image := resources.Get "images/404.webp" }}
+    {{ with $image }}
+        <img src="{{ .RelPermalink }}" alt="404">
+    {{ end }}
+</div>
+<br>
+<p><i>~ 404</i></p>
+{{- else}}
+<div class="not-found">
+    <p>404</p>
+</div>
+{{- end}}
+
 {{- end }}{{/* end main */ -}}

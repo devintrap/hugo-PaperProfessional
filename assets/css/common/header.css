@@ -41,12 +41,12 @@ button#theme-toggle {
     margin: auto 4px;
 }
 
-body.dark #moon {
+body.dark #moon, body.dark #vader {
     vertical-align: middle;
     display: none;
 }
 
-body:not(.dark) #sun {
+body:not(.dark) #sun, body:not(.dark) #stormtrooper {
     display: none;
 }
 
