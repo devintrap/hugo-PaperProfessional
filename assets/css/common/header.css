@@ -91,3 +91,9 @@ body:not(.dark) #sun, body:not(.dark) #stormtrooper {
 .logo-switches {
     flex-wrap: inherit;
 }
+
+@media print {
+    .nav {
+        display: none;
+    }
+}

@@ -58,3 +58,9 @@
 #theme-toggle:focus {
     outline: 0;
 }
+
+@media print {
+    .footer {
+        display: none;
+    }
+}
