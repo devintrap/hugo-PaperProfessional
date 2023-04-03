@@ -45,14 +45,14 @@ button#theme-toggle {
     margin-top: 14px;
 }
 
-/* body.dark #moon, body.dark #vader {
+body.dark #moon, body.dark #vader {
     vertical-align: middle;
     display: none;
 }
 
 body:not(.dark) #sun, body:not(.dark) #stormtrooper {
     display: none;
-} */
+}
 
 #menu {
     list-style: none;
