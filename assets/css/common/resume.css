@@ -1,0 +1,61 @@
+
+
+.resume {
+    /* font-size: 13px; */
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+    /* border: 1px #ccc solid; */
+}
+
+.resume h1 {
+    font-size: 4em;
+}
+
+.resume h2 {
+    font-size: 3em;
+}
+
+.resume h3 {
+    font-size: 2em;
+}
+
+.resume h4 {
+    font-size: 1.5em;
+}
+
+.resume h5 {
+    font-size: 1em;
+}
+
+.resume h6 {
+    font-size: 0,5em;
+}
+
+.resume mark {
+        line-height: 2em;
+}
+
+.resume hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #ccc;  /* old IE */
+    background-color: #ccc;  /* Modern Browsers */
+
+}
+
+.resume-content {
+    padding: 0 5px;
+}
+
+.resume-sidebar {
+    width: 35em;
+    padding: 0 5px;
+    border-left: 1px #ccc solid;
+}
+
+.resume-sidebar .resume-contact {
+    border-bottom:1px solid #ccc;
+    min-height: 295px;
+}
