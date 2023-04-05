@@ -78,7 +78,7 @@ mark {
       rgba(255, 225, 0, 0.1),
       rgba(255, 225, 0, 0.7) 4%,
       rgba(255, 225, 0, 0.3)
-    );
+    ) !important;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
 }
