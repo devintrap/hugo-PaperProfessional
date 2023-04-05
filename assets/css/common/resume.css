@@ -1,5 +1,3 @@
-
-
 .resume {
     font-size: 13px;
     margin: 0 auto;
@@ -43,19 +41,4 @@
     color: #ccc;  /* old IE */
     background-color: #ccc;  /* Modern Browsers */
 
-}
-
-.resume-content {
-    padding: 0 5px;
-}
-
-.resume-sidebar {
-    width: 35em;
-    padding: 0 5px;
-    border-left: 1px #ccc solid;
-}
-
-.resume-sidebar .resume-contact {
-    border-bottom:1px solid #ccc;
-    min-height: 295px;
 }
