@@ -59,6 +59,7 @@
     min-width: 180px;
     margin: 10px 10px 0 0 ;
     padding: 10px;
+    flex: 1;
 }
 
 .resume-contact.postit {
