@@ -4,7 +4,7 @@
 
 ## Resume layout <small style="font-size: 70%;">[[live preview](https://devintrap.com/aboutme/)]</small>
 
-![hugo-PaperProfesional-resume](/static/hugo-PaperProfesional-resume.webp)
+![hugo-PaperProfesional-resume](https://raw.githubusercontent.com/devintrap/hugo-PaperProfessional/dev/static/hugo-PaperProfesional-resume.webp)
 
 **Dedicated resume meata options:**
 
