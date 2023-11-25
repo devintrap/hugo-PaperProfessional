@@ -1,95 +1,72 @@
-<h1 align=center>Hugo PaperMod | <a href="https://adityatelange.github.io/hugo-PaperMod/" rel="nofollow">Demo</a></h1>
+# Hugo Paper Professional
 
-<h4 align=center>☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive</h4>
-<br>
+> It's [Hugo PaperMod](https://github.com/adityatelange/hugo-PaperMod) fork. Extended for resume "about" page layout only.
 
-> Hugo PaperMod is a theme based on [hugo-paper](https://github.com/nanxiaobei/hugo-paper).
-> The goal of this project is to add more features and customization to the og theme.
+## Resume layout <small style="font-size: 70%;">[[live preview](https://devintrap.com/aboutme/)]</small>
 
-**Documentation** can be found here: [**📚 Wiki**](https://github.com/adityatelange/hugo-PaperMod/wiki)
+![hugo-PaperProfesional-resume](/static/hugo-PaperProfesional-resume.webp)
 
-**ExampleSite** can be found here: [**exampleSite**](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite). Demo is built up with [exampleSite](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite) as source.
+**Dedicated resume meata options:**
 
-[![hugo-papermod](https://img.shields.io/badge/Hugo--Themes-@PaperMod-blue)](https://themes.gohugo.io/themes/hugo-papermod/)
-[![Minimum Hugo Version](https://img.shields.io/static/v1?label=min-HUGO-version&message=0.83.0&color=blue&logo=hugo)](https://github.com/gohugoio/hugo/releases/tag/v0.83.0)
-[![Discord](https://img.shields.io/discord/971046860317921340?label=Discord)](https://discord.gg/ahpmTvhVmp)
-[![GitHub](https://img.shields.io/github/license/adityatelange/hugo-PaperMod)](https://github.com/adityatelange/hugo-PaperMod/blob/master/LICENSE)
-![code-size](https://img.shields.io/github/languages/code-size/adityatelange/hugo-PaperMod)
+- Information about you.
+```md
+resumeLocation: "📌 Warsaw, Poland / 🗺️ Remote"
+resumeName: "Your"
+resumeSurname: "Name"
+resumeLead: "Go Team Lead 🚀 / Go Developer 🐹 / self-hosted Enthusiast ❤️"
+```
+- Contact information 
 
----
+![hugo-PaperProfesional-resume-contact.webp](/static/hugo-PaperProfesional-resume-contact.webp)
 
-<p align="center">
-  <kbd><img src="https://user-images.githubusercontent.com/21258296/114303440-bfc0ae80-9aeb-11eb-8cfa-48a4bb385a6d.png" alt="Mockup image" title="Mockup"/></kbd>
-</p>
+> [!WARNING]  
+> All field should put reverse text
 
----
+```md
+resumeContact:
+    tel:
+        prefix: "84"
+        number: "333 222 111"
+    mail: 
+        domain: "liam"
+        at: "\x40"
+        prefix: "rouy"
+```
 
-## Features/Mods 💥
+- Date of beginning your career
 
--   Uses Hugo's asset generator with pipelining, fingerprinting, bundling and minification by default.
--   3 Modes:
-    -   [Regular Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#regular-mode-default-mode)
-    -   [Home-Info Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode)
-    -   [Profile Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode)
--   Table of Content Generation (newer implementation).
--   Archive of posts.
--   Social Icons (home-info and profile-mode)
--   Social-Media Share buttons on posts.
--   Menu location indicator.
--   Multilingual support. (with language selector)
--   Taxonomies
--   Cover image for each post (with Responsive image support).
--   Light/Dark theme (automatic theme switch a/c to browser theme and theme-switch button).
--   SEO Friendly.
--   Multiple Author support.
--   Search Page with Fuse.js
--   Other Posts suggestion below a post
--   Breadcrumb Navigation
--   Code Block Copy buttons
--   No webpack, nodejs and other dependencies are required to edit the theme.
+![hugo-PaperProfesional-resume-experience](/static/hugo-PaperProfesional-resume-experience.webp)
 
-Read Wiki For More Details => **[PaperMod - Features](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)**
+```md
+resumeDateOfBeginning: "2021-12-01T00:00:00+02:00"
+```
 
----
+-  Languages skills
 
-## Install/Update 📥
+![hugo-PaperProfesional-resume-languages](/static/hugo-PaperProfesional-resume-languages.webp)
 
-Read Wiki For More Details => **[PaperMod - Installation](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation)**
+```md
+resumeHumanSpeach:
+    - lang: "Polish"
+      level: "native"
+    - lang: "English"
+      level: "C1"
+```
 
----
+- Main skills 
 
-## FAQs / How To's Guide 🙋
+![hugo-PaperProfesional-mainskills](/static/hugo-PaperProfesional-mainskills.webp)
 
-Read Wiki For More Details => **[PaperMod-FAQs](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs)**
+```md
+resumeSkillList: 
+    - GO
+    - Gin
+    - GORM
+    - Kafka
+    - MySql
+    - REST
+    - ZAP
+    - GitLab CI/CD
+```
 
----
 
-## Social-Icons/Share-Icons 🖼️
-
-Read Wiki For More Details => **[PaperMod-Icons](https://github.com/adityatelange/hugo-PaperMod/wiki/Icons)**
-
----
-
-## Release Changelog 📃
-
-Release ChangeLog has info about stuff added: **[Releases](https://github.com/adityatelange/hugo-PaperMod/releases)**
-
----
-
-## [Pagespeed Insights (100% ?)](https://pagespeed.web.dev/report?url=https://adityatelange.github.io/hugo-PaperMod/) 👀
-
----
-
-## Special Thanks 🌟
-
--   [**Highlight.js**](https://github.com/highlightjs/highlight.js)
--   [**Fuse.js**](https://github.com/krisk/fuse)
--   [**Feather Icons**](https://github.com/feathericons/feather)
--   [**Simple Icons**](https://github.com/simple-icons/simple-icons)
--   **All Contributors and Supporters**
-
----
-
-## Stargazers over time 📈
-
-<kbd>[![Stargazers over time](https://starchart.cc/adityatelange/hugo-PaperMod.svg)](https://starchart.cc/adityatelange/hugo-PaperMod)</kbd>
