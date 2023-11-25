@@ -17,7 +17,7 @@ resumeLead: "Go Team Lead 🚀 / Go Developer 🐹 / self-hosted Enthusiast ❤�
 ```
 - Contact information 
 
-![hugo-PaperProfesional-resume-contact.webp](/static/hugo-PaperProfesional-resume-contact.webp)
+![hugo-PaperProfesional-resume-contact.webp](https://raw.githubusercontent.com/devintrap/hugo-PaperProfessional/dev/static/hugo-PaperProfesional-resume-contact.webp)
 
 > [!WARNING]  
 > All field should put reverse text
@@ -35,7 +35,7 @@ resumeContact:
 
 - Date of beginning your career
 
-![hugo-PaperProfesional-resume-experience](/static/hugo-PaperProfesional-resume-experience.webp)
+![hugo-PaperProfesional-resume-experience](https://raw.githubusercontent.com/devintrap/hugo-PaperProfessional/dev/static/hugo-PaperProfesional-resume-experience.webp)
 
 ```md
 resumeDateOfBeginning: "2021-12-01T00:00:00+02:00"
@@ -43,7 +43,7 @@ resumeDateOfBeginning: "2021-12-01T00:00:00+02:00"
 
 -  Languages skills
 
-![hugo-PaperProfesional-resume-languages](/static/hugo-PaperProfesional-resume-languages.webp)
+![hugo-PaperProfesional-resume-languages](https://raw.githubusercontent.com/devintrap/hugo-PaperProfessional/dev/static/hugo-PaperProfesional-resume-languages.webp)
 
 ```md
 resumeHumanSpeach:
@@ -55,7 +55,7 @@ resumeHumanSpeach:
 
 - Main skills 
 
-![hugo-PaperProfesional-mainskills](/static/hugo-PaperProfesional-mainskills.webp)
+![hugo-PaperProfesional-mainskills](https://raw.githubusercontent.com/devintrap/hugo-PaperProfessional/dev/static/hugo-PaperProfesional-mainskills.webp)
 
 ```md
 resumeSkillList: 
