@@ -135,7 +135,7 @@
                 {{- $separator := or $label_text (not site.Params.disableThemeToggle)}}
                 {{- with site.Home.AllTranslations }}
                 <ul class="lang-switch">
-                    {{- if $separator }}<li>|</li>{{ end }}
+                    {{- if and $separator (gt (len (where . "Lang" "!=" $lang)) 1) }}<li>|</li>{{ end }}
                     {{- range . -}}
                     {{- if ne $lang .Lang }}
                     <li>
