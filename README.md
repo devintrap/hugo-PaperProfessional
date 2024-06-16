@@ -2,6 +2,10 @@
 
 > It's [Hugo PaperMod](https://github.com/adityatelange/hugo-PaperMod) fork. Extended for resume "about" page layout only.
 
+> [!IMPORTANT]
+> The resume "about" page was published as a [separated Hugo template](https://github.com/devintrap/sticky-notes-resume). This repo is no longer under maintenance.
+
+
 ## Resume layout <small style="font-size: 70%;">[[live preview](https://devintrap.com/aboutme/)]</small>
 
 ![hugo-PaperProfesional-resume](https://raw.githubusercontent.com/devintrap/hugo-PaperProfessional/dev/static/hugo-PaperProfesional-resume.webp)
